@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "references": [
+    {
+      "path": "..",
+      "name": "gw2ts-api"
+    }
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": "..",
+    "types": ["jest"]
+  },
+  "include": ["."]
+}
